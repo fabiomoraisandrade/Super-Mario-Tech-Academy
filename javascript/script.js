@@ -47,6 +47,7 @@ const loopGame = setInterval(() => {
         mario.src = "./imagens/mario-game-over.png"
         mario.classList.add('mario-morte')
         musicdeath.play()
+        music.pause()
         
 
         clearInterval(intervalScore) //esse método para de executar a função scoreCounter que está na variável internalScore
