@@ -8,6 +8,7 @@ const music = document.querySelector('#musictheme')
 const jumpSound = document.querySelector('#audioJump')
 const musicdeath = document.querySelector('#audioMorte')
 
+music.play()
 
 const jump = () => {
     mario.classList.add('jump-mario')
