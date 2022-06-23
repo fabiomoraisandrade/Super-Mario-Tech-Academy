@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <div class="game">
+        <div>
+            <img src="imagens/clouds-gamer.png" class="cloud-game">
+            <img src="imagens/super-mario.gif" class="super-mario">
+            <img src="imagens/pipe-game.png" class="pipe-game">
+            <input id="restart" type="button" value="Restart" onClick="document.location.reload(true)">
+            <div id="score">Score: 0</div>
+            <div id="gameOver"><img src="imagens/gameover.gif" id="gif"></div>
+            <div id="menu"><a href="index.html">Voltar ao menu</a></div>
+            <audio id="audioJump" src="audio/smw_jump.wav"></audio>
+            <audio id="audioMorte" src="audio/smw_lost_a_life.wav"></audio>
+            <audio id="musictheme" src="audio/smw_overworld.mp3" autoplay></audio>
+
+        </div>
+    </div>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>
